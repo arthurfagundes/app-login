@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutautent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF9800"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:text="@string/autenticacao"
+            android:textSize="80dp"
+            android:textAppearance="?android:attr/textAppearance">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:hint="@string/login"
+            android:inputType="textPersonName"
+            android:textSize="50dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="30dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="50dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btentrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="#202B2A"
+            android:text="@string/btentrar"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

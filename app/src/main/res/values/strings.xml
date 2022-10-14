@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppLogin</string>
+    <string name="welcome">BEM-VINDO!</string>
+    <string name="btregistrar">REGISTRAR</string>
+    <string name="btentrar">ENTRAR</string>
+    <string name="btsalvar">SALVAR</string>
+    <string name="autenticacao">AUTENTICAÇÃO</string>
+    <string name="registrar">REGISTRE-SE</string>
+    <string name="login">Insira seu login</string>
+    <string name="password">Insira sua senha</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtregistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/registrar"
+        android:textSize="45dp"
+        android:textAppearance="?android:attr/textAppearance"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtregnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/txtregistrar"
+        android:inputType="textPersonName"
+        android:textSize="24dp"
+        android:hint="Insira seu nome" />
+
+    <EditText
+        android:id="@+id/edtreglogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/edtregnome"
+        android:inputType="textPersonName"
+        android:textSize="24dp"
+        android:hint="Insira seu login"/>
+
+    <EditText
+        android:id="@+id/edtregpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtreglogin"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Insira sua senha"
+        android:inputType="textPassword"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/edtregpass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtregpass"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Repita sua senha"
+        android:inputType="textPassword"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btsalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtregpass1"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#202B2A"
+        android:text="@string/btsalvar"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textSize="20dp" />
+
+</RelativeLayout>
